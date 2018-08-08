@@ -1,0 +1,26 @@
+Under Debian, or Ubuntu Linux, use apt-get command as follows to install ksh:
+============================================================================
+sudo apt-get update
+sudo apt-get install ksh pdksh
+
+Under Red Hat, CentOS, or Fedora Linux, use yum command as follows to install ksh:
+==================================================================================
+yum install ksh
+
+How do I use ksh?
+=================
+Simply type ksh at a shell prompt to use ksh shell:
+
+ksh
+OR
+
+/bin/ksh
+
+
+How do I set ksh as a default login shell?
+============================================
+
+Use chsh command to change your login shell:
+    ====
+chsh  -s /bin/ksh
+chsh  -s /bin/ksh username
