@@ -1,2 +1,2 @@
 # ksh-scripting
-shell scripting with Korn Shell (ksh)(
+shell scripting with Korn Shell (ksh)
