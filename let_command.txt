@@ -1,3 +1,4 @@
 http://faculty.salina.k-state.edu/tim/unix_sg/bash/math.html
 
 try to see the difference between declare,expr,let and (( ))
+
