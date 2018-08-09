@@ -1,0 +1,34 @@
+IFS (Internal Field Separator):
+==============================
+
+    The shell uses the value stored in IFS, which is the space, tab, and newline characters by default, to delimit words for the read and
+    set commands, when parsing output from command substitution, and when performing variable substitution.
+    
+
+
+Ex:
+  line=learn:unix:at:livefire:labs
+  for i in $line
+  do
+    echo $i
+  done
+Then the outpt is:
+          learn:unix:at:livefire:labs
+$ OIFS=$IFS
+$ IFS=:
+  for i in $line
+  do
+    echo $i
+  done
+
+Then the output is:
+  learn
+  unix
+  at
+  livefire
+  labs
+  
+  =========================================================
+  
+  Note: if you want to consider any other than default IFS(SPACE,TAB AND NEWLINE) as IFS then you have to overwrite or append the IFS
+  
