@@ -1,0 +1,14 @@
+Example-1:
+=========
+To execute that command stored in the string:
+
+COMMAND="ls -lrt"
+
+eval $COMMAND
+
+output:
+=======
+total 16
+-rw-rw-r-- 1 user group 11  Oct  4 01:06 sample.sh
+-rw-rw-r-- 1 user group 0   Oct  4 01:06 test.bat
+-rw-rw-r-- 1 user group 0   Oct  4 01:06 xyz_ip
